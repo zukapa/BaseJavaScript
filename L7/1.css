@@ -1,0 +1,30 @@
+.basket, .editbas{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+}
+.basket {
+    width: 550px;
+    border-style: solid;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    font-size: 3vh;
+    padding: 5px 5px 5px 5px;
+}
+.sp {
+    padding-right: 5px;
+    width: 30px;
+    height: 30px;
+}
+.bp {
+    width: 100%;
+}
+.editbas {
+    flex-wrap: wrap;
+}
+.next {
+    flex-basis: 100%;
+    height: 30px;
+    justify-content: center;
+    margin: 5px 0px 5px 0px;
+}
