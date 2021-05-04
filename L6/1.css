@@ -1,0 +1,13 @@
+.basket {
+    width: 550px;
+    border-style: solid;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: left;
+    margin: 0 auto;
+    font-size: 3vh;
+}
+.butt {
+    margin-left: 30px;
+}
