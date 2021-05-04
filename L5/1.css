@@ -1,0 +1,40 @@
+.vertical, .horizontal, .board {
+    position: absolute;
+    display: flex;
+}
+.vertical, .horizontal {
+    align-content: space-between;
+    width: 1000px;
+    height: 1000px;
+    border-style: solid;
+}
+.black, .white, .sym {
+    width: 100px;
+    height: 100px;
+}
+.horizontal {
+    flex-wrap: wrap;
+}
+.vertical {
+    flex-flow: column;
+    flex-wrap: wrap;
+}
+.board {
+    top: 111px;
+    left: 111px;
+    width: 800px;
+    height: 800px;
+    flex-wrap: wrap;
+}
+.sym {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 7vh;
+}
+.black {
+    background-color: black;
+}
+.white {
+    background-color: white;
+}
